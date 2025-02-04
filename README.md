@@ -1,6 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📝 Meeting Intelligence Platform
 
-## Getting Started
+🚀 **AI-powered meeting transcription, summarization, and retrieval system** built with **Next.js, Whisper, LangChain, and Pinecone**.
+
+## **📌 Features**
+- 🎙 **Transcribe Meetings** – Upload MP3 files, and OpenAI Whisper transcribes the speech.
+- 📄 **Generate Summaries** – Extract key points, summaries, and action items using LLMs.
+- 🔍 **Search Past Meetings** – Use **RAG (Retrieval-Augmented Generation)** to find relevant discussions.
+- 📈 **Monitor AI Performance** – Track model drift & quality using **Arize AI / WhyLabs**.
+- 🚀 **Deployed on Vercel** – Ensures high availability & performance.
+
+---
+
+## **⚡ Tech Stack**
+| Technology       | Purpose |
+|-----------------|---------|
+| **Next.js 15** (App Router, TypeScript) | Frontend & API Routes |
+| **OpenAI Whisper** | Speech-to-text transcription |
+| **LangChain** | Summarization & RAG (Retrieval-Augmented Generation) |
+| **Pinecone** | Vector Database for embedding search |
+| **Formidable** | File upload handling |
+| **TailwindCSS** | UI styling |
+| **Vercel** | Deployment |
+
+---
+
+## **🚀 Getting Started**
+
 
 First, run the development server:
 
